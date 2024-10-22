@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../public/css/index.css">
+    <title>Bisiklet sitem</title>
+</head>
+<body>
+   
+<div class="topbar">
+    <div class="left">
+        <i class="fa-brands fa-square-instagram"></i>
+    </div>
+    <div class="center">
+        <a href="/index.html">Anasayfa</a>
+        <a href="/pages/Gezilerim.html">Gezilerim</a>
+        <a href="/pages/anket.html">Anket</a>
+        <a href="/pages/hakkımda.html">Hakkımda</a>
+    </div>
+    <div class="right">
+        <span>
+            <img src="../public/img/w_f1OC5vl0G6w9pIRTFV_.jpeg" alt="">
+        </span>
+    </div>
+</div>
+
+
+<header class="header">
+    <img src="../public/img/arka plan .jpg" 
+    alt="backround">
+    <h1>MERHABA</h1>
+    <h3>DEĞERLENDİRİN</h3>
+</header>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Anketimize Katılın!</h1>
+        <form id="survey-form">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label>Blogumu beğendiniz mi?</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="topics" value="teknoloji"> Evet</label>
+                <label><input type="checkbox" name="topics" value="sağlık"> Hayır</label>
+                
+            </div>
+
+            <label>Ne tür bisiklet kullanıyorsunuz?</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="topics" value="teknoloji"> Dağ bisikleti</label>
+                <label><input type="checkbox" name="topics" value="sağlık"> Yol Bisikletik</label>
+                <label><input type="checkbox" name="topics" value="eğitim"> Yarış bisikleti</label>
+                <label><input type="checkbox" name="topics" value="sanat"> Elektrikli Bisiklet</label>
+            </div>
+
+            <label>Ne tür içerikler olsun istersiniz?</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="topics" value="teknoloji"> Rota bilgisi</label>
+                <label><input type="checkbox" name="topics" value="sağlık"> Bisikletler türü hakkında</label>
+                <label><input type="checkbox" name="topics" value="eğitim"> Ekipman hakkında</label>
+                <label><input type="checkbox" name="topics" value="sanat"> Mekanik konularda</label>
+            </div>
+
+            <label for="rating">Sitemize verdiğiniz puan:</label>
+            <select id="rating" name="rating">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <label for="comments">Yorumlarınız:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <button type="submit">Gönder</button>
+        </form>
+    </div>
+
+<footer>
+    <p>&copy; 2024 Gezi Yazılarım</p>
+</footer>
+
+</body>
+</html>

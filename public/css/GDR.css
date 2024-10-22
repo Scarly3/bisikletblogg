@@ -1,0 +1,23 @@
+.container p{
+    padding-bottom: 10px;
+}
+
+.container .post .yol1{
+width: 300px;
+height: 300px;
+}
+
+.container .post .yol2{
+    width: 300px;
+    height: 300px;
+}
+
+.container .post .yol5{
+    width: 400px;
+    height: 500px;
+}
+
+.container .post .yol6{
+    width: 400px;
+    height: 500px;
+}
